@@ -1,1 +1,137 @@
-{}
+{
+    "schema_version": 1,
+    "last_updated": "2026-02-06T12:00:00Z",
+Show less
+    "services": {
+        "bitcoind": {
+            "versions": [
+                {
+                    "version": "30.2",
+                    "gpg_key_id": "152812300785C96444D3334D17565732E08E5E41",
+                    "daemon_version": null,
+                    "base_url": "https://bitcoincore.org/bin/bitcoin-core-30.2",
+                    "checksums_file": "SHA256SUMS",
+                    "signature_file": "SHA256SUMS.asc",
+                    "platforms": {
+                        "linux-x86_64": {
+                            "filename": "bitcoin-30.2-x86_64-linux-gnu.tar.gz",
+                            "sha256": "6aa7bb4feb699c4c6262dd23e4004191f6df7f373b5d5978b5bcdd4bb72f75d8"
+                        },
+                        "linux-aarch64": {
+                            "filename": "bitcoin-30.2-aarch64-linux-gnu.tar.gz",
+                            "sha256": "73e76c14edc79808a0511c744d102ffbb494807ee90cbcba176568243254b532"
+                        },
+                        "macos-aarch64": {
+                            "filename": "bitcoin-30.2-arm64-apple-darwin.tar.gz",
+                            "sha256": "c2ecab62891de22228043815cb6211549a32272be3d5d052ff19847d3420bd10"
+                        },
+                        "macos-x86_64": {
+                            "filename": "bitcoin-30.2-x86_64-apple-darwin.tar.gz",
+                            "sha256": "99d5cee9b9c37be506396c30837a4b98e320bfea71c474d6120a7e8eb6075c7b"
+                        }
+                    }
+                },
+                {
+                    "version": "29.2",
+                    "gpg_key_id": "152812300785C96444D3334D17565732E08E5E41",
+                    "daemon_version": null,
+                    "base_url": "https://bitcoincore.org/bin/bitcoin-core-29.2",
+                    "checksums_file": "SHA256SUMS",
+                    "signature_file": "SHA256SUMS.asc",
+                    "platforms": {
+                        "linux-x86_64": {
+                            "filename": "bitcoin-29.2-x86_64-linux-gnu.tar.gz",
+                            "sha256": "1fd58d0ae94b8a9e21bbaeab7d53395a44976e82bd5492b0a894826c135f9009"
+                        },
+                        "linux-aarch64": {
+                            "filename": "bitcoin-29.2-aarch64-linux-gnu.tar.gz",
+                            "sha256": "f88f72a3c5bf526581aae573be8c1f62133eaecfe3d34646c9ffca7b79dfdc7a"
+                        },
+                        "macos-aarch64": {
+                            "filename": "bitcoin-29.2-arm64-apple-darwin.tar.gz",
+                            "sha256": "bd07450f76d149d094842feab58e6240673120c8a317a1c51d45ba30c34e85ef"
+                        },
+                        "macos-x86_64": {
+                            "filename": "bitcoin-29.2-x86_64-apple-darwin.tar.gz",
+                            "sha256": "69ca05fbe838123091cf4d6d2675352f36cf55f49e2e6fb3b52fcf32b5e8dd9f"
+                        }
+                    }
+                }
+            ]
+        },
+        "tor": {
+            "versions": [
+                {
+                    "version": "15.0.5",
+                    "gpg_key_id": "EF6E286DDA85EA2A4BA7DE684E2C6E8793298290",
+                    "daemon_version": "0.4.8.22",
+                    "base_url": "https://archive.torproject.org/tor-package-archive/torbrowser/15.0.5",
+                    "checksums_file": "sha256sums-signed-build.txt",
+                    "signature_file": "sha256sums-signed-build.txt.asc",
+                    "platforms": {
+                        "linux-x86_64": {
+                            "filename": "tor-expert-bundle-linux-x86_64-15.0.5.tar.gz",
+                            "sha256": "df5d4850779d9648160c54df1a82733ea54f3430c46b3cc3ed2a22b579f8758e"
+                        },
+                        "macos-aarch64": {
+                            "filename": "tor-expert-bundle-macos-aarch64-15.0.5.tar.gz",
+                            "sha256": "147be0997f4538c6f20f3a113f6220f7a1c711acc3410f534f0a3cf62b7a06dd"
+                        },
+                        "macos-x86_64": {
+                            "filename": "tor-expert-bundle-macos-x86_64-15.0.5.tar.gz",
+                            "sha256": "38a62c81c93eee88a273a14b8669e7d5a72583adef1c37c28e1cd98ee5ea2ade"
+                        }
+                    }
+                },
+                {
+                    "version": "15.0.4",
+                    "gpg_key_id": "EF6E286DDA85EA2A4BA7DE684E2C6E8793298290",
+                    "daemon_version": "0.4.8.21",
+                    "base_url": "https://archive.torproject.org/tor-package-archive/torbrowser/15.0.4",
+                    "checksums_file": "sha256sums-signed-build.txt",
+                    "signature_file": "sha256sums-signed-build.txt.asc",
+                    "platforms": {
+                        "linux-x86_64": {
+                            "filename": "tor-expert-bundle-linux-x86_64-15.0.4.tar.gz",
+                            "sha256": "b9d0cbb76b2d8cca37313393b7b02a931e8b63d58aacbeed18b24d5cbb887fe8"
+                        },
+                        "macos-aarch64": {
+                            "filename": "tor-expert-bundle-macos-aarch64-15.0.4.tar.gz",
+                            "sha256": "8f0a9dc1020b2d7a89356a6aabefb95663614b132790ea484381ccb669e2d255"
+                        },
+                        "macos-x86_64": {
+                            "filename": "tor-expert-bundle-macos-x86_64-15.0.4.tar.gz",
+                            "sha256": "1577938b499f46b8cdfa6643c4bb982309ee48fcaa08e3d32ac64e2dd8c16830"
+                        }
+                    }
+                },
+                {
+                    "version": "16.0a2",
+                    "gpg_key_id": "EF6E286DDA85EA2A4BA7DE684E2C6E8793298290",
+                    "daemon_version": "0.4.9.4",
+                    "base_url": "https://archive.torproject.org/tor-package-archive/torbrowser/16.0a2",
+                    "checksums_file": "sha256sums-signed-build.txt",
+                    "signature_file": "sha256sums-signed-build.txt.asc",
+                    "platforms": {
+                        "linux-x86_64": {
+                            "filename": "tor-expert-bundle-linux-x86_64-16.0a2.tar.gz",
+                            "sha256": "e591cd4f324e4de22e13255be2c678a5fa5dbf524cab7fd0c1b41b202f486765"
+                        },
+                        "linux-aarch64": {
+                            "filename": "tor-expert-bundle-linux-aarch64-16.0a2.tar.gz",
+                            "sha256": "3b85b62b2198c5da8570eaca1820d5fff69bf0b8e73d71e6749dfbe2a0b538a6"
+                        },
+                        "macos-aarch64": {
+                            "filename": "tor-expert-bundle-macos-aarch64-16.0a2.tar.gz",
+                            "sha256": "39c667103ec27cac4ab00214e67499686eb72ce6b01601a22691d6ebca40ca0d"
+                        },
+                        "macos-x86_64": {
+                            "filename": "tor-expert-bundle-macos-x86_64-16.0a2.tar.gz",
+                            "sha256": "dad20a8be9ebfe0d7d2e424161ab3279ad7d6ecbe5c704511e095cf7ce212e51"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
